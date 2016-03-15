@@ -28,6 +28,9 @@ GEM
       nokogiri (~> 1.5, >= 1.5.11)
     formatador (0.2.5)
     ipaddress (0.8.3)
+    mime-types (3.0)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0221)
     mini_portile2 (2.0.0)
     multi_json (1.11.2)
     nokogiri (1.6.7.2)
@@ -40,6 +43,7 @@ PLATFORMS
 DEPENDENCIES
   dragonfly
   dragonfly-s3_data_store
+  mime-types
 
 BUNDLED WITH
    1.11.2
