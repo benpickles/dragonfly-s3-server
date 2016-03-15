@@ -1,0 +1,22 @@
+{
+  "name": "Dragonfly S3 Server",
+  "description": "Separate Dragonfly S3 processing and serving from your main app.",
+  "repository": "https://github.com/benpickles/dragonfly-s3-server",
+  "env": {
+    "AWS_ACCESS_KEY_ID": {
+      "description": "Your AWS Secret Access Key."
+    },
+    "AWS_REGION": {
+      "description": "The AWS region in which the S3 bucket resides."
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "description": "Your AWS Access Key ID."
+    },
+    "DRAGONFLY_SECRET": {
+      "description": "The Dragonfly secret key that protects against DOS attacks - shared with the main app."
+    },
+    "S3_BUCKET": {
+      "description": "The name of your S3 bucket."
+    }
+  }
+}

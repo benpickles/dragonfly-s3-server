@@ -2,6 +2,8 @@
 
 Isolate [Dragonfly](https://github.com/markevans/dragonfly) processing and serving of [S3 assets](https://github.com/markevans/dragonfly-s3_data_store) from your main app.
 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/benpickles/dragonfly-s3-server)
+
 ## Configuration
 
 `AWS_ACCESS_KEY_ID`: Your AWS Access Key ID.
