@@ -33,3 +33,7 @@ Prevent assets from being processed/served by **removing this line**:
 ```ruby
 Rails.application.middleware.use Dragonfly::Middleware
 ```
+
+## Licence
+
+Copyright © [Ben Pickles](http://www.benpickles.com), [MIT licence](LICENCE).
