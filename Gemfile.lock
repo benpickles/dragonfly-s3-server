@@ -45,5 +45,8 @@ DEPENDENCIES
   dragonfly-s3_data_store
   mime-types
 
+RUBY VERSION
+   ruby 2.3.1p112
+
 BUNDLED WITH
-   1.11.2
+   1.12.5
