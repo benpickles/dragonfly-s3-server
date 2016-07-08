@@ -35,6 +35,7 @@ GEM
     multi_json (1.11.2)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
+    puma (3.4.0)
     rack (1.6.4)
 
 PLATFORMS
@@ -44,6 +45,7 @@ DEPENDENCIES
   dragonfly
   dragonfly-s3_data_store
   mime-types
+  puma
 
 RUBY VERSION
    ruby 2.3.1p112

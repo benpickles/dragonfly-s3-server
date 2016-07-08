@@ -16,6 +16,10 @@ Isolate [Dragonfly](https://github.com/markevans/dragonfly) processing and servi
 
 `S3_BUCKET`: The name of your S3 bucket.
 
+`WEB_PROCESSES`: The number of web processes.
+
+`WEB_THREADS`: The number of threads per web process.
+
 ## Modifications to the main Rails app
 
 There are a couple of changes to make in your main Rails app's `config/initializers/dragonfly.rb`.

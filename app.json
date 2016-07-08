@@ -17,6 +17,14 @@
     },
     "S3_BUCKET": {
       "description": "The name of your S3 bucket."
+    },
+    "WEB_PROCESSES": {
+      "description": "The number of web processes.",
+      "value": "2"
+    },
+    "WEB_THREADS": {
+      "description": "The number of threads per web process.",
+      "value": "4"
     }
   }
 }
