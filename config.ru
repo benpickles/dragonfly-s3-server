@@ -7,7 +7,7 @@ Dragonfly.app.configure do
   verify_urls true
   secret ENV.fetch('DRAGONFLY_SECRET')
 
-  url_format '/media/:job/:name'
+  url_format ENV.fetch('DRAGONFLY_URL_FORMAT')
 
   datastore :s3,
     access_key_id: ENV.fetch('AWS_ACCESS_KEY_ID'),

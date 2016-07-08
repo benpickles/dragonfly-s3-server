@@ -15,6 +15,10 @@
     "DRAGONFLY_SECRET": {
       "description": "The Dragonfly secret key that protects against DOS attacks - shared with the main app."
     },
+    "DRAGONFLY_URL_FORMAT": {
+      "description": "The Dragonfly asset path - must match `url_format` in the main app.",
+      "value": "/media/:job/:name"
+    },
     "S3_BUCKET": {
       "description": "The name of your S3 bucket."
     },

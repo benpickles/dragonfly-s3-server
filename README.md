@@ -14,6 +14,8 @@ Isolate [Dragonfly](https://github.com/markevans/dragonfly) processing and servi
 
 `DRAGONFLY_SECRET`: The Dragonfly secret key that protects against DOS attacks - shared with the main app.
 
+`DRAGONFLY_URL_FORMAT`: The Dragonfly asset path - must match `url_format` in the main app.
+
 `S3_BUCKET`: The name of your S3 bucket.
 
 `WEB_PROCESSES`: The number of web processes.
